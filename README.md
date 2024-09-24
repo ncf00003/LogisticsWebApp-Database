@@ -2,12 +2,32 @@
 ### Company Statement
 
 ### Stored Procedues and End User Actions
-<strong> sp(name) </strong>
+<strong> sp(storedprocname) </strong>
+<br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
+<p> Parameters: </p>
+•	@()  
+<strong> sp(storedprocname) </strong>
 <br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
 •	@()  
 
+<strong> sp(storedprocname) </strong>
+<br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
+<p> Parameters: </p>
+•	@()  
+<strong> sp(storedprocname) </strong>
+<br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
+<p> Parameters: </p>
+•	@()  
 
+<strong> sp(storedprocname) </strong>
+<br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
+<p> Parameters: </p>
+•	@()  
+<strong> sp(storedprocname) </strong>
+<br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
+<p> Parameters: </p>
+•	@()  
 
 # Collaborative Work
 ## Natalia Furmanek 
