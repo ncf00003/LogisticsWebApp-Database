@@ -5,29 +5,29 @@
 <strong> sp(storedprocname) </strong>
 <br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
-•	@()  
+<p> •	@()  </p>
 <strong> sp(storedprocname) </strong>
 <br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
-•	@()  
+<p> •	@()  </p>
 
 <strong> sp(storedprocname) </strong>
 <br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
-•	@()  
+<p> •	@()  </p>
 <strong> sp(storedprocname) </strong>
 <br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
-•	@()  
+<p> •	@()  </p>
 
 <strong> sp(storedprocname) </strong>
 <br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
-•	@()  
+<p> •	@()  </p>
 <strong> sp(storedprocname) </strong>
 <br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
-•	@()  
+<p> •	@()  </p>
 
 # Collaborative Work
 ## Natalia Furmanek 
