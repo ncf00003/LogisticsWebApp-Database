@@ -5,29 +5,29 @@
 <strong> sp(storedprocname) </strong>
 <br> Description: </br>
 <p> Parameters: </p>
-<p>    • @()  </p>
+<p> • @() </p>
 <strong> sp(storedprocname) </strong>
 <br> Description:  </br>
 <p> Parameters: </p>
-<p>  *	@()  </p>
+<p> • @() </p>
 
 <strong> sp(storedprocname) </strong>
 <br> Description:</br>
 <p> Parameters: </p>
-<p>  *	@()  </p>
+<p> • @() </p>
 <strong> sp(storedprocname) </strong>
 <br> Description: </br>
 <p> Parameters: </p>
-<p>  *	@()  </p>
+<p> • @() </p>
 
 <strong> sp(storedprocname) </strong>
 <br> Description:  </br>
 <p> Parameters: </p>
-<p>  *	@()  </p>
+<p> • @() </p>
 <strong> sp(storedprocname) </strong>
 <br> Description: </br>
 <p> Parameters: </p>
-<p>  *	@()  </p>
+<p> • @() </p>
 
 # Collaborative Work
 ## Natalia Furmanek 
