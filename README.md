@@ -1,7 +1,7 @@
 # LogisticsWebApp-DataBase
 ### Company Statement
 
-### Stored Procedues and End User Actions
+### Stored Procedures and End User Actions
 <strong> sp(storedprocname) </strong>
 <br> Description:  </br>
 <p> Parameters: </p>
