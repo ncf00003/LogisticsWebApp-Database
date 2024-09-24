@@ -1,2 +1,42 @@
 # LogisticsWebApp-DataBase
-MIST 353: Group and Individual work for Assignment 3: Build a Database and Stored Procedures
+### Company Statement
+
+### End User Actions
+
+
+# Collaborative Work
+## Natalia Furmanek 
+<strong>1. Database Tables </strong>
+
+<strong>2. Stored Procedures </strong>
+
+<strong>3. Resources </strong>
+<br> Chat GPT to Fill in Mock Data </b>
+<p> Prompts Used: </p>
+
+## Leonardo Cuellar
+<strong>1. Database Tables </strong>
+
+<strong>2. Stored Procedures </strong>
+
+<strong>3. Resources </strong>
+<br> Chat GPT to Fill in Mock Data </b>
+<p> Prompts Used: </p>
+
+## Luke Chittenden
+<strong>1. Database Tables </strong>
+
+<strong>2. Stored Procedures </strong>
+
+<strong>3. Resources </strong>
+<br> Chat GPT to Fill in Mock Data </b>
+<p> Prompts Used: </p>
+
+## Landen Riggleman
+<strong>1. Database Tables </strong>
+
+<strong>2. Stored Procedures </strong>
+
+<strong>3. Resources </strong>
+<br> Chat GPT to Fill in Mock Data </b>
+<p> Prompts Used: </p>
