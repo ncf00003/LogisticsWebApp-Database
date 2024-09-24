@@ -1,7 +1,12 @@
 # LogisticsWebApp-DataBase
 ### Company Statement
 
-### End User Actions
+### Stored Procedues and End User Actions
+<strong> sp(name) </strong>
+<p> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </p>
+<p> Parameters: </p>
+•	@()  
+
 
 
 # Collaborative Work
