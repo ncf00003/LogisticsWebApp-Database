@@ -3,7 +3,7 @@
 
 ### Stored Procedues and End User Actions
 <strong> sp(name) </strong>
-<p> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </p>
+<br> Description: Add a new vehicle organization. Used by admins to register a new organization for fleet management. </br>
 <p> Parameters: </p>
 •	@()  
 
