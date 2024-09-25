@@ -1,5 +1,7 @@
 # LogisticsWebApp-DataBase
 ### Company Statement
+Include the data that will be included in the Database
+<p> For example: Tables and connections </p>
 
 ### Stored Procedures and End User Actions
 <strong> sp(storedprocname) </strong>
