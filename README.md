@@ -5,6 +5,8 @@ Include the data that will be included in the Database
 <p> For example: Tables and connections </p>
 
 ### Stored Procedures and End User Actions
+<br> Additional two procedures to fulfill assignment requirement for every team member to create two procedures. </br>
+
 <strong> sp(storedprocname) </strong>
 <br> Description:  </br>
 <p> Parameters: </p>
@@ -38,7 +40,7 @@ Include the data that will be included in the Database
 # Collaborative Work
 ## Natalia Furmanek 
 <strong>1. Create Database Tables </strong>
-<br> Created tables using mysql. Used ChatGPT to assist in altering tables to create relationships. <br>
+<br> Created tables using MySQL. Used ChatGPT to assist in altering tables to create relationships. <br>
 
 <strong>2. Stored Procedures </strong>
 
