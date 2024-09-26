@@ -38,13 +38,14 @@ Include the data that will be included in the Database
 # Collaborative Work
 ## Natalia Furmanek 
 <strong>1. Create Database Tables </strong>
- 
+<br> Created tables using mysql. Used ChatGPT to assist in altering tables to create relationships. <br>
 
 <strong>2. Stored Procedures </strong>
 
 <strong>3. Resources </strong>
-<br> ChatGPT Used to Generate Table Ideas and Relationships (not creation) </br>
-<p> Prompts Used: "Ideas for logistics web app database" </p>
+<br> ChatGPT Used to Generate Table Ideas and Relationships </br>
+<p> Prompts Used: "Ideas for logistics web app database" <br>
+"Help me add relationships in alter format" also input my code and comments </p>
 
 ## Leonardo Cuellar
 <strong>1. Stored Procedures </strong>
