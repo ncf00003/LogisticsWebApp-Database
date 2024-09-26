@@ -1,5 +1,6 @@
 # LogisticsWebApp-DataBase
 ### Company Statement
+(Short Statement About Merging Ideas into database)
 Include the data that will be included in the Database
 <p> For example: Tables and connections </p>
 
@@ -37,12 +38,15 @@ Include the data that will be included in the Database
 # Collaborative Work
 ## Natalia Furmanek 
 <strong>1. Database Tables </strong>
+ 
 
 <strong>2. Stored Procedures </strong>
 
 <strong>3. Resources </strong>
-<br> Chat GPT to Fill in Mock Data </br>
+<br> ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: </p>
+<br> ChatGPT Used to Generate Table Ideas and Relationships (not creation) </br>
+<p> Prompts Used: "Ideas for logistics web app database" </p>
 
 ## Leonardo Cuellar
 <strong>1. Database Tables </strong>
@@ -50,7 +54,7 @@ Include the data that will be included in the Database
 <strong>2. Stored Procedures </strong>
 
 <strong>3. Resources </strong>
-<br> Chat GPT to Fill in Mock Data </br>
+<br> ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: </p>
 
 ## Luke Chittenden
@@ -59,7 +63,7 @@ Include the data that will be included in the Database
 <strong>2. Stored Procedures </strong>
 
 <strong>3. Resources </strong>
-<br> Chat GPT to Fill in Mock Data </br>
+<br> ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: </p>
 
 ## Landen Riggleman
@@ -68,5 +72,5 @@ Include the data that will be included in the Database
 <strong>2. Stored Procedures </strong>
 
 <strong>3. Resources </strong>
-<br> Chat GPT to Fill in Mock Data </br>
+<br> ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: </p>
