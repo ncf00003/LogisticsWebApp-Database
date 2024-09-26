@@ -5,8 +5,6 @@ Include the data that will be included in the Database
 <p> For example: Tables and connections </p>
 
 ### Stored Procedures and End User Actions
-Additional two procedures to fulfill assignment requirement for every team member to create two procedures. <br>
-
 <strong> sp(storedprocname) </strong>
 <br> Description:  </br>
 <p> Parameters: </p>
