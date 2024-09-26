@@ -44,7 +44,8 @@ Include the data that will be included in the Database
 
 <strong>3. Resources </strong>
 <br> ChatGPT Used to Generate Table Ideas and Relationships </br>
-<p> Prompts Used: "Ideas for logistics web app database" <br>
+<p> Prompts Used: 
+<br> "Ideas for logistics web app database" </br>
 "Help me add relationships in alter format" also input my code and comments </p>
 
 ## Leonardo Cuellar
