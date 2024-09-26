@@ -43,7 +43,7 @@ Include the data that will be included in the Database
 <strong>2. Stored Procedures </strong>
 
 <strong>3. Resources </strong>
-ChatGPT Used to Generate Table Ideas and Relationships (not creation) </br>
+<br> ChatGPT Used to Generate Table Ideas and Relationships (not creation) </br>
 <p> Prompts Used: "Ideas for logistics web app database" </p>
 
 ## Leonardo Cuellar
