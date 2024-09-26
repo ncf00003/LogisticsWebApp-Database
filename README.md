@@ -43,9 +43,7 @@ Include the data that will be included in the Database
 <strong>2. Stored Procedures </strong>
 
 <strong>3. Resources </strong>
-ChatGPT to Fill in Mock Data </br>
-<p> Prompts Used: </p>
-<br> ChatGPT Used to Generate Table Ideas and Relationships (not creation) </br>
+ChatGPT Used to Generate Table Ideas and Relationships (not creation) </br>
 <p> Prompts Used: "Ideas for logistics web app database" </p>
 
 ## Leonardo Cuellar
