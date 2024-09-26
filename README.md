@@ -37,7 +37,7 @@ Include the data that will be included in the Database
 
 # Collaborative Work
 ## Natalia Furmanek 
-<strong>1. Database Tables </strong>
+<strong>1. Create Database Tables </strong>
  
 
 <strong>2. Stored Procedures </strong>
@@ -49,28 +49,22 @@ ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: "Ideas for logistics web app database" </p>
 
 ## Leonardo Cuellar
-<strong>1. Database Tables </strong>
+<strong>1. Stored Procedures </strong>
 
-<strong>2. Stored Procedures </strong>
-
-<strong>3. Resources </strong>
+<strong>2. Resources </strong>
 <br> ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: </p>
 
 ## Luke Chittenden
-<strong>1. Database Tables </strong>
+<strong>1. Stored Procedures </strong>
 
-<strong>2. Stored Procedures </strong>
-
-<strong>3. Resources </strong>
+<strong>2. Resources </strong>
 <br> ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: </p>
 
 ## Landen Riggleman
-<strong>1. Database Tables </strong>
+<strong>1. Stored Procedures </strong>
 
-<strong>2. Stored Procedures </strong>
-
-<strong>3. Resources </strong>
+<strong>2. Resources </strong>
 <br> ChatGPT to Fill in Mock Data </br>
 <p> Prompts Used: </p>
