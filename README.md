@@ -16,7 +16,7 @@ Include the data that will be included in the Database
 <p> • @() </p>
 
 <strong> sp(storedprocname) </strong>
-<br> Description:  </br>
+<br> Description: </br>
 <p> Parameters: </p>
 <p> • @() </p>
 
