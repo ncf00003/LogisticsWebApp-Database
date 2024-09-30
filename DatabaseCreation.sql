@@ -1,3 +1,6 @@
+Create Database LogisticsWebData
+GO
+
 Use LogisticsWebData
 Go 
 
