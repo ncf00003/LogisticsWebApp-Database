@@ -1,8 +1,7 @@
 # LogisticsWebApp-DataBase
 ### Company Statement
-(Short Statement About Merging Ideas into database)
-Include the data that will be included in the Database
-<p> For example: Tables and connections </p>
+Now that we have a prototype web app, our Logistics firm needs to create a database. 
+<p> In doing so, we will be able to store users, tracking and route information referencable by our web app. </p>
 
 ### Stored Procedures and End User Actions
 <strong> 1. sp(storedprocname) </strong>
