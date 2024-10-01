@@ -76,5 +76,5 @@ In doing so, we will be able to store users, tracking and route information refe
 <strong>1. Stored Procedures: 7 & 8 </strong>
 
 <strong>2. Resources </strong>
-<br> ChatGPT to Fill in Mock Data </br>
+<br> ChatGPT </br>
 <p> Prompts Used: </p>
