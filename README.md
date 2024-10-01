@@ -9,6 +9,7 @@ In doing so, we will be able to store users, tracking and route information refe
 <br> Description: Find User Delivery Date and status  </br>
 <p> Parameters: </p>
 <p> • @userid </p>
+<p> • @shipmentid int </p>
 
 <strong> 2. spVehicleDrivers </strong>
 <br> Description: Find all drivers based on a vehicle </br>
