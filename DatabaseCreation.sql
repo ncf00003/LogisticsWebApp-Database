@@ -144,3 +144,5 @@ GO
 ALTER TABLE [warehouses]
 ADD CONSTRAINT FK_Warehouse_Location FOREIGN KEY ([locationID]) REFERENCES [locations]([locationid]);
 GO
+
+-- Needs additional Update to bring schema into normal form: for all addresses to be uniform
