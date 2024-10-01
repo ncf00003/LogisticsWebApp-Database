@@ -7,6 +7,7 @@ Create proc spUserDelivery
 @userid int,
 @shipmentid int
 AS 
+BEGIN	
 	SELECT 
 	U.Userid,
 	-- concat and additional columns to look like an email response
@@ -15,6 +16,7 @@ AS
 	S.DestinationAddress,
 	S.DeliveryDate,
 	-- Something Fancy to determine delivered or in-route
+	-- Make sure these two fields match in the data entry
 	CASE WHEN T.CurrentLocation = S.DestinationAddress  
 	THEN 'Delivered'
 	WHEN T.CurrentLocation != S.DestinationAddress
@@ -25,14 +27,16 @@ AS
 	-- Inner join since there is no status without a shipment, proc is meant to be specific to a certain Delivery
 	INNER JOIN dbo.shipments S on U.userid = S.userID 
 	LEFT JOIN dbo.[tracking] T on S.Shipmentid = T.Shipmentid
-
+	WHERE U.Userid = @userid and S.Shipmentid = @shipmentid
+END
 GO
 
 
 --Execute After Data is entered
 /* 
 EXEC spUserDeliveryStatus
-
+@userid int = '1',
+@shipmentid = '1';
 
 */
 
