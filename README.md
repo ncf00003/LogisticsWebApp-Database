@@ -1,7 +1,7 @@
 # LogisticsWebApp-DataBase
 ### Company Statement
 Now that we have a prototype web application, our Logistics firm needs to create a database. 
-<p> In doing so, we will be able to store users, tracking and route information referencable by our web app. Additionally, having a database allows us to improve functionallity of our web application, using this back-end code to improve the functionality of our front-end development. </p>
+<p> In doing so, we will be able to store users, tracking and route information referencable by our web app. Additionally, having a database allows us to improve functionallity of our web application. Using back-end MySQL code helps us to improve the functionality of our front-end development. A seperate database improves security as well by not having our data easily accessible within our front-end code. </p>
 
 ### Stored Procedures and End User Actions
 <strong> 1. sp(storedprocname) </strong>
