@@ -1,6 +1,8 @@
 Create Database LogisticsWebData
 GO
+-- May want to run this in a seperate query before USING
 
+-- Required Every Time  
 Use LogisticsWebData
 Go 
 
@@ -90,7 +92,7 @@ CREATE TABLE [tracking] (
 ) 
 GO
 
-
+-- Create joins after tables and attributes, easier for organization purposes. 
 
 -- Alter the Vehicles table to add a foreign key relationship with users (drivers)
 -- Drivers are users too
