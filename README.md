@@ -51,6 +51,8 @@ In doing so, we will be able to store users, tracking and route information refe
 <br> Created tables using MySQL. Used ChatGPT to assist in altering tables to create relationships. <br>
 
 <strong>2. Stored Procedures: 1 & 2 </strong>
+<br> 1. spUserDeliveryStatus </br>
+2. spVehicleDrivers
 
 <strong>3. Resources </strong>
 <br> ChatGPT Used to Generate Table Ideas and Relationships </br>
