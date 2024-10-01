@@ -5,15 +5,15 @@ In doing so, we will be able to store users, tracking and route information refe
 <p> Additionally, having a database allows us to improve functionallity of our web application. Using back-end MySQL code helps us to improve the functionality of our front-end development. A seperate database improves security as well by not having our data easily accessible within our front-end code. </p>
 
 ### Stored Procedures and End User Actions
-<strong> 1. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 1. spUserDeliveryStatus </strong>
+<br> Description: Find User Delivery Date and status  </br>
 <p> Parameters: </p>
-<p> • @() </p>
+<p> • @userid </p>
 
-<strong> 2. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 2. spVehicleDrivers </strong>
+<br> Description: Find all drivers based on a vehicle </br>
 <p> Parameters: </p>
-<p> • @() </p>
+<p> • @vehicleid </p>
 
 <strong> 3. sp(storedprocname) </strong>
 <br> Description: </br>
