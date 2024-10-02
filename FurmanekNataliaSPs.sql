@@ -21,7 +21,7 @@ BEGIN
 	THEN 'In-Route'
 	END AS [Status],
 	T.LastUpdated
-	FROM dbo.users as U
+	FROM dbo.users U
 	-- Inner join since there is no status without a shipment, proc is meant to be specific to a certain Delivery
 	INNER JOIN dbo.shipments S on U.userid = S.userID 
 	LEFT JOIN dbo.[tracking] T on S.Shipmentid = T.Shipmentid
@@ -30,12 +30,45 @@ BEGIN
 END
 GO
 
-
 --Execute After Data is entered
 /* 
+USE LogisticsWebData
+GO
+
 EXEC spDeliveryTracking
 @userid = '1',
 @shipmentid = '1';
 */
 
+
+-- Required Everytime - Added again for ease of testing
+USE LogisticsWebData
+GO
 --spVehicleDrivers 2: Find all drivers based on a vehicle
+CREATE proc spVehicleDrivers
+@vehicleid int
+AS
+BEGIN
+	SELECT
+	V.vehicleid,
+	V.model,
+	V.vin,
+	V.plate,
+	--CONCAT for display purposes
+	CONCAT (U.FirstName, ' ', U.LastName) as [Driver]
+	FROM 
+	dbo.vehicles V
+	-- JOIN to users on driverid as FK link - INNER Since id must match with a 'driver'
+	INNER JOIN dbo.users U on V.driverID = U.userid
+	WHERE V.vehicleid = @vehicleid
+END
+GO
+
+-- rewrite use-go for quick testing
+/* 
+USE LogisticsWebData
+GO
+
+EXEC spVehicleDrivers
+@vehicleid = '2';
+*/
