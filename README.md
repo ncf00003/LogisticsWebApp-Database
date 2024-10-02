@@ -7,9 +7,9 @@ In doing so, we will be able to store users, tracking and route information refe
 ### Stored Procedures and End User Actions
 <strong> 1. spDeliveryTracking </strong>
 <br> Description: Find User Delivery Date and Tracking Information with format similar to an order emails </br>
-<p> Parameters: </p>
-<p> • @userid </p>
-<p> • @shipmentid int </p>
+<p> Parameters: 
+<br> • @userid 
+<br> • @shipmentid int </p>
 
 <strong> 2. spVehicleDrivers </strong>
 <br> Description: Find all drivers based on a vehicle </br>
@@ -52,8 +52,8 @@ In doing so, we will be able to store users, tracking and route information refe
 <br> Created tables using MySQL. <br>
 
 <strong>2. Stored Procedures: 1 & 2 </strong>
-<br> 1. spDeliveryTracking </br>
-2. spVehicleDrivers
+<br>  • spDeliveryTracking </br>
+ • spVehicleDrivers
 
 <strong>3. Resources </strong>
 <br> ChatGPT Used to Generate Table Ideas </br>
