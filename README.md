@@ -79,9 +79,12 @@ In doing so, we will be able to store users, tracking and route information refe
 
 ## Luke Chittenden
 <strong>1. Stored Procedures: 5 & 6 </strong>
+<br>  • spDeliveryTracking </br>
+ • spVehicleDrivers
 
 <strong>2. Resources </strong>
 <br> ChatGPT </br>
+[W3 Schools](https://www.w3schools.com/sql/default.asp)
 <p> Prompts Used:
 <br> "Write a return message in sql server that lets the user know that there are no values found that match the input using the @@ROWCOUNT function"</br>
 </p>
