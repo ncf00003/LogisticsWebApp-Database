@@ -36,15 +36,21 @@ In doing so, we will be able to store users, tracking and route information refe
 <p> Parameters: 
 <br> • @() </p>
 
-<strong> 7. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 7. sp(CreateUserProfile) </strong>
+<br> Description: To create a profile or return a message if the profile already exists  </br>
 <p> Parameters:
-<br> • @() </p>
+<br> • @(Firstname)
+<br> • @(LastName)
+<br> • @(Email)
+<br> • @(Password)
+<br> • @(ContactNumber)
+<br> • @(Address) </p>
 
-<strong> 8. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 8. sp(VerifyLogin) </strong>
+<br> Description: To verify a users email and password to login to account  </br>
 <p> Parameters: 
-<br> • @() </p>
+<br> • @(Email)
+<br> • @(Password) </p>
 
 # Collaborative Work
 ## Natalia Furmanek 
@@ -75,12 +81,13 @@ In doing so, we will be able to store users, tracking and route information refe
 <strong>1. Stored Procedures: 5 & 6 </strong>
 
 <strong>2. Resources </strong>
-<br> ChatGPT  </br>
+<br> ChatGPT </br>
 <p> Prompts Used: </p>
 
 ## Landen Riggleman
 <strong>1. Stored Procedures: 7 & 8 </strong>
-
+<br>  • spCreateUserProfile </br>
+ • spVerifyLogin
 <strong>2. Resources </strong>
-<br> ChatGPT </br>
-<p> Prompts Used: </p>
+<br> ChatGPT used to check code for errors on stored procedures  </br>
+<p> Prompts Used: "Please review the follwong sql stored procedure for mistakes" </p>
