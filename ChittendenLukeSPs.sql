@@ -2,7 +2,7 @@
 USE LogisticsWebData
 GO
 
---spShipmentOrigin 3: Find all shipments based on shipment type
+--spShipmentOrigin 5: Find all shipments based on shipment type
 create proc ShipmentType
 	@ShipmentType NVARCHAR(255)
 AS
@@ -34,7 +34,7 @@ EXEC ShipmentType 'Electronics';
 USE LogisticsWebData
 GO
 
---spNewVehicle 4: Add a new vehicle to the database
+--spNewVehicle 6: Add a new vehicle to the database
 create proc NewVehicle
     @model NVARCHAR(255), 
     @vin VARCHAR(17), 
