@@ -24,15 +24,15 @@ In doing so, we will be able to store users, tracking and route information refe
 <strong> 4. sp(storedprocname) </strong>
 <br> Description:  </br>
 <p> Parameters: 
-<br> • @() </p>
+<br> • @ShipmentType NVARCHAR(255) </p>
 
-<strong> 5. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 5. spShipmentType </strong>
+<br> Description: Find all shipments based on shipment type </br>
 <p> Parameters: 
-<br> • @() </p>
+<br> • @BLANK </p>
 
-<strong> 6. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 6. spNewVehicle </strong>
+<br> Description: Add a new vehicle to the database </br>
 <p> Parameters: 
 <br> • @() </p>
 
