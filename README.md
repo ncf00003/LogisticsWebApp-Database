@@ -69,7 +69,7 @@ In doing so, we will be able to store users, tracking and route information refe
 
 ## Leonardo Cuellar
 <strong>1. Update Database Tables </strong>
-<p> Updated Table columns to add in joins in effort to normalize database. Added in data. </p>
+<br> Updated Table columns to add in joins in effort to normalize database. Added in data. </br>
 
 <strong>2. Stored Procedures: 3 & 4 </strong>
 
