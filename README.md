@@ -87,7 +87,7 @@ In doing so, we will be able to store users, tracking and route information refe
 ## Landen Riggleman
 <strong>1. Stored Procedures: 7 & 8 </strong>
 <br>  • spCreateUserProfile </br>
- • spVerifyLogin
+ • spVerifyLogin </br>
 <strong>2. Resources </strong>
 <br> ChatGPT used to check code for errors on stored procedures  </br>
 <p> Prompts Used: "Please review the follwong sql stored procedure for mistakes" </p>
