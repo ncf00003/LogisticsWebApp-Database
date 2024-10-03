@@ -1,3 +1,4 @@
+-- Create Database Script. (May want to run this chunk separate)
 Create Database LogisticsWebData
 GO
 
