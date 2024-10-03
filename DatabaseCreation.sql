@@ -1,3 +1,4 @@
+-- Create Database Script. (May want to run this chunk separate)
 Create Database LogisticsWebData
 GO
 
@@ -60,6 +61,7 @@ CREATE TABLE [warehouses] (
 GO
 
 -- Shipments table
+-- Main normalization effort and in line  relationships with Primary and Foriegn keys. 
 CREATE TABLE [shipments] (
   [Shipmentid] int PRIMARY KEY IDENTITY(1, 1),
   [DeliveryDate] date,
@@ -72,11 +74,17 @@ CREATE TABLE [shipments] (
   [warehouseID] int NOT NULL,
   [OriginLocationID] int NOT NULL,
   [DestinationLocationID] int NOT NULL,
+  -- Connects users to shipments on UserID
   CONSTRAINT FK_Shipment_User FOREIGN KEY ([userID]) REFERENCES [users]([userid]),
+  -- Connects shipments to vehicles on vehicleID
   CONSTRAINT FK_Shipment_Vehicle FOREIGN KEY ([vehicleID]) REFERENCES [vehicles]([vehicleid]),
+  -- Connects shimpents to routes 
   CONSTRAINT FK_Shipment_Route FOREIGN KEY ([routeID]) REFERENCES [routes]([routeid]),
+  -- Connects Shipments to warehouse
   CONSTRAINT FK_Shipment_Warehouse FOREIGN KEY ([warehouseID]) REFERENCES [warehouses]([warehouseid]),
+  -- Connects to Location table (very important join for functionality)
   CONSTRAINT FK_Shipment_OriginLocation FOREIGN KEY ([OriginLocationID]) REFERENCES [locations]([locationid]),
+  -- Different address must join on location seperately 
   CONSTRAINT FK_Shipment_DestinationLocation FOREIGN KEY ([DestinationLocationID]) REFERENCES [locations]([locationid])
 );
 GO

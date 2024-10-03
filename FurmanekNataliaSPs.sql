@@ -3,7 +3,7 @@ USE LogisticsWebData
 GO
 
 --spUserDeliveryStatus 1: Find User Delivery Date and Tracking Information 
-Create proc spDeliveryTracking
+Create or alter proc spDeliveryTracking
 @userid int,
 @shipmentid int
 AS 
@@ -36,8 +36,10 @@ USE LogisticsWebData
 GO
 
 EXEC spDeliveryTracking
-@userid = '1',
-@shipmentid = '1';
+-- used = '1' out of habit, one would be more proper  
+@userid = 1,
+@shipmentid = 1;
+GO
 */
 
 
@@ -45,7 +47,7 @@ EXEC spDeliveryTracking
 USE LogisticsWebData
 GO
 --spVehicleDrivers 2: Find all drivers based on a vehicle
-CREATE proc spVehicleDrivers
+CREATE or alter proc spVehicleDrivers
 @vehicleid int
 AS
 BEGIN
@@ -70,5 +72,6 @@ USE LogisticsWebData
 GO
 
 EXEC spVehicleDrivers
-@vehicleid = '2';
+@vehicleid = 2;
+GO
 */
