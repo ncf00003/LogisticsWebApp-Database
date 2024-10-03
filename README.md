@@ -84,7 +84,7 @@ In doing so, we will be able to store users, tracking and route information refe
 
 <strong>2. Resources </strong>
 <br> [W3 Schools](https://www.w3schools.com/sql/default.asp) </br>
-ChatGPT
+<br> ChatGPT </br>
 <p> Prompts Used:
 <br> "Write a return message in sql server that lets the user know that there are no values found that match the input using the @@ROWCOUNT function"</br>
 </p>
