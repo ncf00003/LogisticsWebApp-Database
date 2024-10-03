@@ -25,7 +25,7 @@ go
 -- Check login for users to use their account
 use LogisticsWebData
 go
-create procedure VarifyLogin
+create procedure VerifyLogin
     @Email NVARCHAR(255),
     @Password NVARCHAR(255),
 as
