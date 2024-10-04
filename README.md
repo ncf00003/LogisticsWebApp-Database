@@ -16,15 +16,24 @@ In doing so, we will be able to store users, tracking and route information refe
 <p> Parameters: 
 <br> • @vehicleid </p>
 
-<strong> 3. sp(storedprocname) </strong>
-<br> Description: </br>
-<p> Parameters:
-<br> • @() </p>
-
-<strong> 4. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 3. spCountShipmentsWarehouse </strong>
+<br> Description: Finds how many shipments are either in the warehouse or incoming to the warehouse.</br>
 <p> Parameters: 
-<br> • @() </p>
+<br> • @warehouseid int </p>
+
+<strong> 4. spAddShipment </strong>
+<br> Description:  Adds a new shipment to the shipmnets table</br>
+<p> Parameters: 
+<br> • @DeliveryDate DATE = NULL,
+<br> • @ShipmentType NVARCHAR(50),
+<br> • @Weight DECIMAL(18, 2),
+<br> • @Cost DECIMAL(18, 2),
+<br> • @userID INT,
+<br> • @vehicleID INT = NULL,
+<br> • @routeID INT = NULL,
+<br> • @warehouseID INT = NULL,
+<br> • @OriginLocationID INT = NULL,
+<br> • @DestinationLocationID INT = NULL </p>
 
 <strong> 5. spShipmentType </strong>
 <br> Description: Find all shipments based on shipment type </br>
