@@ -2,7 +2,7 @@ use LogisticsWebData
 GO
 
 -- Find number of shipments in x warehouse
-create or alter proc spSumShipmentsWarehouse
+create or alter proc spCountShipmentsWarehouse
 @warehouseid int 
 AS
 BEGIN
