@@ -26,15 +26,19 @@ In doing so, we will be able to store users, tracking and route information refe
 <p> Parameters: 
 <br> • @() </p>
 
-<strong> 5. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 5. spShipmentType </strong>
+<br> Description: Find all shipments based on shipment type </br>
 <p> Parameters: 
-<br> • @() </p>
+<br> • @ShipmentType </p>
 
-<strong> 6. sp(storedprocname) </strong>
-<br> Description:  </br>
+<strong> 6. spNewVehicle </strong>
+<br> Description: Add a new vehicle to the database </br>
 <p> Parameters: 
-<br> • @() </p>
+<br> • @model
+<br> • @vin
+<br> • @plate
+<br> • @capacity
+<br> • @driverID </p>
 
 <strong> 7. sp(CreateUserProfile) </strong>
 <br> Description: To create a profile or return a message if the profile already exists  </br>
@@ -79,10 +83,15 @@ In doing so, we will be able to store users, tracking and route information refe
 
 ## Luke Chittenden
 <strong>1. Stored Procedures: 5 & 6 </strong>
+<br>  • spShipmentType </br>
+ • spNewVehicle
 
 <strong>2. Resources </strong>
+<br> [W3 Schools](https://www.w3schools.com/sql/default.asp) </br>
 <br> ChatGPT </br>
-<p> Prompts Used: </p>
+<p> Prompts Used:
+<br> "Write a return message in sql server that lets the user know that there are no values found that match the input using the @@ROWCOUNT function"</br>
+</p>
 
 ## Landen Riggleman
 <strong>1. Stored Procedures: 7 & 8 </strong>
