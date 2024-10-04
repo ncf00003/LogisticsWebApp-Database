@@ -22,7 +22,7 @@ In doing so, we will be able to store users, tracking and route information refe
 <br> • @warehouseid int </p>
 
 <strong> 4. spAddShipment </strong>
-<br> Description:  Adds a new shipment to the shipmnets table</br>
+<br> Description:  Adds a new shipment to the shipments table</br>
 <p> Parameters: 
 <br> • @DeliveryDate DATE = NULL,
 <br> • @ShipmentType NVARCHAR(50),
@@ -87,8 +87,12 @@ In doing so, we will be able to store users, tracking and route information refe
 <strong>2. Stored Procedures: 3 & 4 </strong>
 
 <strong>3. Resources </strong>
-<br> ChatGPT for Mock Data </br>
-<p> Prompts Used: </p>
+<br> ChatGPT for Mock Data, Normalization Help, and convert attributes to parameters </br>
+<p> Prompts Used: 
+<br> Make these into parameters: [Procedure 4 attributes from table shipments]
+<br> Can you help me normalize this database in third normal form in SQL server: [Previous code for DB creation] (Note for prompt: Database was already created but it was in 2NF, the prompt helped me normalize it and clean it as it had many "alter table", and was throwing errors).
+<br> [After previous prompt] Now help me add some sample data to this database. Probably 3 rows to each table. 
+</p>
 
 ## Luke Chittenden
 <strong>1. Stored Procedures: 5 & 6 </strong>
