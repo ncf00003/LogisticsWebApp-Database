@@ -12,6 +12,7 @@ CREATE TABLE [users] (
   [FirstName] varchar(255),
   [LastName] varchar(255) NOT NULL,
   [Email] nvarchar(255) NOT NULL,
+  --Encrypt from MYSQL
   [Password] nvarchar(255) NOT NULL,
   [ContactNumber] nvarchar(255) NOT NULL,
   [Address] nvarchar(255) NOT NULL
