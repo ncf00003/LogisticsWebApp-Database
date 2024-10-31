@@ -6,6 +6,7 @@ create or alter proc spSumShipmentsWarehouse
 @warehouseid int 
 AS
 BEGIN
+-- Changed "Number of Shipments" in count to "ShipmentsNum" for it to work with Database
 	SELECT w.warehouseid, l.[Address], l.[State], l.City, count(s.Shipmentid) AS 'ShipmentsNum'
 	FROM warehouses AS w
 	INNER JOIN locations as l
